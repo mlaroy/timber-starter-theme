@@ -1,0 +1,15 @@
+@tailwind preflight;
+
+/**
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
+ @tailwind components;
+
+ // base
+@import "base/normalize";
+
+@tailwind utilities;
