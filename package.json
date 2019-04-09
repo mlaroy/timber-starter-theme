@@ -2,7 +2,7 @@
   "name": "timber-starter-theme",
   "version": "0.0.1",
   "description": "A Timber starter theme with Laravel mix and Tailwind CSS",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "test": "tests"
   },
@@ -31,11 +31,20 @@
   },
   "homepage": "https://github.com/mlaroy/timber-starter-theme#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
     "laravel-mix": "^4.0.15",
     "laravel-mix-tailwind": "^0.1.0",
-    "tailwindcss": "^0.7.4"
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.17.3",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^0.7.4",
+    "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^2.2.4",
+    "micromodal": "^0.3.2",
+    "slick-carousel": "^1.8.1"
   }
 }
